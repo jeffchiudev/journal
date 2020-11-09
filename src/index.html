@@ -8,8 +8,14 @@
 <body>
   <h3>Welcome to your Journal, How are you today?</h3>
   <form id="journal-entry">
-    <label for="journal-log">Dear Journal:</label>
-    <input id="journal-log" type="text">
+    <div class="form-group">
+      <label for="journal-title">Journal Title:</label>
+      <input id="journal-title" type="text">
+    </div>
+    <div class="form-group">
+      <label for="journal-body">Journal Body:</label>
+    <input id="journal-body" type="text">
+    </div>
     <button type="submit">Submit</button>
   </form>
   <ul id="response"></ul>
