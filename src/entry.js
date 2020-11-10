@@ -1,23 +1,4 @@
-/*
-function Journal() {
-  this.journalEntry = [];
-}*/
-
-function Entry(title, body) {
-  this.title = title;
-  this.body = body;
-};
-
-Entry.prototype.wordCount = function() {
-  let words = this.body.split(' ').length;
-  return words;
-}
-
-function Journal() {
-  this.journalEntry = [];
-}
-
-function Entry(title, body) {
+export default function Entry(title, body) {
   this.title = title;
   this.body = body;
 };
